@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .info-box {
+    flex-direction: column;
+  }
+
+  .search-bar input {
+    width: 70%;
+  }
+
+  .map-section {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-bar input {
+    width: 80%;
+  }
+
+  .map-section {
+    height: 250px;
+  }
+}
